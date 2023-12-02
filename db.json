@@ -1,0 +1,16 @@
+{
+    "libros":[
+        {
+            "id":1,
+            "nombre":"Cien años de soledad",
+            "autor": "Gabriel Garcia Marquez",
+            "anio": "1967"
+        },
+        {
+            "id":2,
+            "nombre":"El olvido que seremos",
+            "autor": "Hetor abad",
+            "anio": "2006"
+        }
+    ]
+}

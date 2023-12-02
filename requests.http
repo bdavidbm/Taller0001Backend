@@ -1,0 +1,30 @@
+GET http://localhost:3000/libros HTTP/1.1
+
+###
+GET http://localhost:3000/libros/1 HTTP/1.1
+
+###
+POST http://localhost:3000/libros HTTP/1.1
+Content-Type: application/json
+
+{
+
+    "nombre":"Diario de Ana Frank",
+    "autor": "Ana Frank",
+    "anio": "1942"
+ 
+}
+
+###
+PUT http://localhost:3000/libros/1 HTTP/1.1
+Content-Type: application/json
+
+{
+
+    
+    "anio": "1943"
+ 
+}
+
+###
+DELETE http://localhost:3000/libros/1 HTTP/1.1
